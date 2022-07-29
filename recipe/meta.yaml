@@ -1,5 +1,5 @@
 {% set name = "cyberpunk-theme" %}
-{% set version = "0.0.14" %}
+{% set version = "0.0.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cyberpunk-theme-{{ version }}.tar.gz
-  sha256: 96d39399002399642894180dd4364477911aa84a72910e674b33b8188053cd4d
+  sha256: a2fdd270a68168ab6ff4b240f4775fc826944c7416e98dbdcc297a7cdb39b4c6
 
 build:
   entry_points:
